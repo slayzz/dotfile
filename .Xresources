@@ -1,0 +1,68 @@
+!URxvt settings
+URxvt.internalBorder:           4
+URxvt.lineSpace:                0
+URxvt.geometry:                 90x30
+URxvt.buffered:                 false
+URxvt.saveLines:                12000
+URxvt.fading:                   0
+URxvt.depth:                    32
+URxvt.loginShell:               true
+URxvt.perl-ext-common:          vtwheel,default,clipboard,matcher,resize-font
+URxvt.keysym.Shift-Control-V:   perl:clipboard:paste
+URxvt.iso14755:                 False
+URxvt.termName:                 rxvt-unicode-256color
+
+URxvt.matcher.button:       1
+URxvt.urlLauncher:          firefox
+
+
+!-*-{ Xft settings
+Xft*dpi:       96
+Xft*antialias: true
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+Xft.rgba: rgb
+!-*-}
+
+URxvt.allow_bold:               true
+
+
+URxvt*font:                     xft:Fira Code:style=Medium:size=9
+URxvt*boldFont:                 xft:Fira Code:style=Medium:size=9
+!URxvt*font:                     xft:Droid Sans  for Powerline:size=9
+!URxvt*boldFont:                 xft:Droid Sans  for Powerline:size=9
+
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+! Fix font space
+!URxvt.letterSpace:              -1
+
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+
+
+
+
+! Rofi
+rofi.opacity:           90
+rofi.width:             100
+rofi.lines:             5
+rofi.font:              Source Code Pro 9
+rofi.separator-style:   none
+rofi.hide-scrollbar:    true
+rofi.padding:           340
+rofi.eh:                2
+rofi.bw:                0
+rofi.bc:                base0D
